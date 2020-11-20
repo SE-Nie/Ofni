@@ -11,7 +11,9 @@ function App() {
 <div className="Container">
   <Header />
   <Main />
-
+  <Mainrestaurants />
+  <Maincities />
+  <Maintags />
   <Mainid />
   <Footer />
 </div>
