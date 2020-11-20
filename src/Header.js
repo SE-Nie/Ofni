@@ -1,22 +1,21 @@
 import React from 'react';
 import './App.css';
+import Headerimg from "./header.jpg";
+
 
 export default function Header (){
     return(
 <>
 <div className="header">
+    <img src={Headerimg}></img>
    <div className="header-top">
-       <div className="header-top-left">LOGO</div>
+       <div className="header-top-left"><h1></h1></div>
        <div className="header-top-right">
-           <ul>
-               <li>Home</li>
-               <li>About us</li>
-               <li>Contact</li>
-           </ul>
+    
        </div>
     
    </div>
-   <div className="header-bot">INFO FOR OFNI</div>
+   <div className="header-bot"></div>
 </div>
 
 </>

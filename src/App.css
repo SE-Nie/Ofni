@@ -3,24 +3,45 @@
   padding: 0px;
 }
 
+.App{
+  background-color: rgb(243, 224, 224);
+}
+
 .Container{
   padding-left:10%;
   padding-right:10%;
  
 }
+.card{
+  height: 500px;
+  width: 400px;
+  background-color: yellowgreen;
+  text-align: center;
+}
 
+.card button{
+  margin-top:50px;
+}
 .header{
   height:400px;
   width: 100%;
-  background-color: red;
+  
   display: grid;
-  grid-template-rows: 20% 80%;
+  grid-template-rows: 10% 90%;
 }
 
+.header-top-left h1{
+  color: white;
+  font-size: 40px;
+}
+.header img {
+  max-width:100%;
+}
 .header-top{
   display: grid;
-  grid-template-columns: 20% 80%;
+  grid-template-columns: 10% 90%;
   width: 100%;
+  background-color: rgba(0, 0, 0, 0.432);
 }
 
 .header-top-left{
@@ -34,11 +55,78 @@
 }
 
 .main{
+  margin-top:100px;
   width:100%;
   /*height: auto; - AFTER THE CARDS ARE IMPLEMENTED */
-  height:1000px;
-  background-color: rgb(240, 136, 136);
+  height:600px;
+
+  display: grid;
+  grid-template-rows: 10% 90%;
 }
+
+.main-top{
+  display: flex;
+  justify-content: center;
+}
+.main-bot{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  
+}
+
+.main-bot-left{
+  margin: 20px;
+ 
+}
+
+.main-bot-left-img img{
+  width: auto;
+  height: 300px;
+  padding-left:30px;
+  
+}
+.main-bot-mid-img img{
+  width: auto;
+  height: 300px;
+  padding-left:30px;
+  
+}
+
+.main-bot-right{
+ display: grid;
+ grid-template-rows: 60% 40%;
+}
+
+.main-bot-right-img img{
+padding-left:30px;
+  
+}
+.main-bot-right-text{
+  display:block;
+  align-items: center;
+
+}
+
+.main-bot-mid{
+  margin:20px;
+
+}
+
+.main-bot-right{
+  margin: 20px;
+ 
+}
+
+
+.main h1{
+  text-align: center;
+}
+
+.main button{
+margin-left:200px;
+}
+
+
 
 
 .footer{
